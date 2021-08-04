@@ -104,7 +104,7 @@ body {
   margin:0px;
   overflow:hidden;
   animation:first 1.5s steps(30,end) forwards,
-            blink 0.7s;
+            blink 0.3s;
 }
 @keyframes first {
   0% { width:0% }
@@ -115,7 +115,7 @@ body {
   overflow:hidden;
   animation-delay: 1.5s;
   animation:second 1.5s steps(30,end) forwards,
-            blink 0.7s;
+            blink 0.3s;
 }
 @keyframes second {
   0% { width:0% }
